@@ -147,7 +147,6 @@
 <script type="text/javascript">
 $(document).ready(function() {
     $("#submitBtn").on("click", function() {
-        //form validation
         function validateForm() {
             var isValid = true;
             $('.validate').each(function() {
@@ -165,7 +164,7 @@ $(document).ready(function() {
         if (validateForm() == true) {
             var newFriend = {
                 name: $('#name').val().trim(),
-                profilePic: $('#photo').val().trim(),
+                photo: $('#photo').val().trim(),
                 scores: [
                     $('#q1').val(),
                     $('#q2').val(),
