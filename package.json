@@ -12,7 +12,7 @@
     "url": "git+https://github.com/jlrt37/friend-finder.git"
   },
   "author": "Joshua Ragon",
-  "license": "Josh",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/jlrt37/friend-finder/issues"
   },
