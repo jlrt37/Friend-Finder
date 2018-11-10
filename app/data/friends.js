@@ -1,5 +1,5 @@
 // Data structure that will store the friends data
-var friendsArray = [
+var friendList = [
 	{
 		name: 'Ross',
 		photo: 'https://upload.wikimedia.org/wikipedia/en/thumb/6/6f/David_Schwimmer_as_Ross_Geller.jpg/240px-David_Schwimmer_as_Ross_Geller.jpg',
@@ -162,4 +162,4 @@ var friendsArray = [
 	}
 ];
 
-module.exports = friendsArray;
+module.exports = friendList;
